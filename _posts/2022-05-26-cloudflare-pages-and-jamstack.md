@@ -26,7 +26,7 @@ If you know me in any technical fashion, it's no secret I _love_ Cloudflare. At 
 
 I navigated over to the Jekyll website and started the installation. Pretty simple, just grab the latest version of Ruby from homebrew and get going. I created some new GitHub repos for some of my various domains I have: darin.sh, darinrandal.com, cudi.zone and erppy.co. I ran the scaffolding for my first Jekyll installation for darin.sh and committed it straight to main.
 
-Swapping back over to my Cloudflare Pages tab, I launched a new Pages project and selected the new repo for darin.sh. The process was shockingly simple. I chose the repo and set the preset to Jekyll, pressed continue and it was done. My boilerplate Jekyll install for darin.sh was live on [darin-sh.pages.dev](darin-sh.pages.dev). Yeah, it was that simple. I was absolutely shocked. How have I never really heard more about this? I knew static sites existed but I could've never imagined how simple it was to use. I just launched a brand new website on a subdomain in less than five minutes. I was sold.
+Swapping back over to my Cloudflare Pages tab, I launched a new Pages project and selected the new repo for darin.sh. The process was shockingly simple. I chose the repo and set the preset to Jekyll, pressed continue and it was done. My boilerplate Jekyll install for darin.sh was live on [darin-sh.pages.dev](https://darin-sh.pages.dev). Yeah, it was that simple. I was absolutely shocked. How have I never really heard more about this? I knew static sites existed but I could've never imagined how simple it was to use. I just launched a brand new website on a subdomain in less than five minutes. I was sold.
 
 # Moving over all my existing static sites
 
