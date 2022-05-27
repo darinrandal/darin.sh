@@ -34,18 +34,26 @@ I logged into my DigitalOcean VPS and took a backup of my `/var/www` folder that
 
 Here's a couple ones that you may get a kick out of:
 
-- snoopdo.gg - This used to just be a static site that played Drop It Like It's Hot with Snoop Dogg dancing. I sadly let the domain expire a few years back since it cost something like $70/year. It was immediately picked up and now parked by some madman probably trying to sell it to Snoop Dogg. What a shame.
-- cudi.zone - A shoutout to Kid Cudi, one of my favorite artists back then and his song Cudi Zone. I let it expire a few years back and managed to grab it again just a few days ago. Someone owned it for a few years and did something similar to the site that I had on it previously.
+- [snoopdo.gg](https://snoopdo.gg) - This used to just be a static site that played Drop It Like It's Hot with Snoop Dogg dancing. I sadly let the domain expire a few years back since it cost something like $70/year. It was immediately picked up and now parked by some madman probably trying to sell it to Snoop Dogg. What a shame.
+- [cudi.zone](https://cudi.zone) - A shoutout to Kid Cudi, one of my favorite artists back then and his song Cudi Zone. I let it expire a few years back and managed to grab it again just a few days ago. Someone owned it for a few years and did something similar to the site that I had on it previously.
 
 The migration process was simple. I created the GitHub repositories for
 
-- darin.sh - This was originally just a extraordinally basic vanilla JS terminal. My plan was to make this site my hacker-style blog. You're probably on it now. The theme would be akin to a terminal thanks to the shell script tld.
-- darinrandal.com - Currently just a dead website. I want to turn this into a professional portfolio and resume. I'll have it link out to all my other sites and platforms as well.
-- erppy.co - This site I've ran for 8 years now. It just takes a gorgeous visualizer from the old Chromium projects iframed in, and plays Deadmau5 - Strobe from a hidden YouTube player. It's _really_ popular, like, 25-75k visitors a month popular. Why? I'm not sure.
-- cudi.zone - Working on updating it. Just displays album artwork and used to play a Kid Cudi - Cudi Zone before autoplaying audio was frowned upon and disabled.
+- [darin.sh](https://darin.sh) - This was originally just a extraordinally basic vanilla JS terminal. My plan was to make this site my hacker-style blog. You're probably on it now. The theme would be akin to a terminal thanks to the shell script tld.
+- [darinrandal.com](https://darinrandal.com) - Currently just a dead website. I want to turn this into a professional portfolio and resume. I'll have it link out to all my other sites and platforms as well.
+- [erppy.co](https://erppy.co) - This site I've ran for 8 years now. It just takes a gorgeous visualizer from the old Chromium projects iframed in, and plays Deadmau5 - Strobe from a hidden YouTube player. It's _really_ popular, like, 25-75k visitors a month popular. Why? I'm not sure.
+- [cudi.zone](https://cudi.zone) - Working on updating it. Just displays album artwork and used to play a Kid Cudi - Cudi Zone before autoplaying audio was frowned upon and disabled.
 
 Once I got those repos set up with the static files for those websites I created the Cloudflare Pages projects for each one, connected it to the respective GitHub repo and deployed them. Each project was then tested with the pages.dev URL provided and configured to use my custom domains. Done. My domains now point to Pages instead of my DigitalOcean VPS. It took less than ten minutes to do all of them. It cannot be overstated how in awe I was at this process with how easy and quick it was.
 
 # Deleting my DigitalOcean VPS
 
 In the eight years of running this same $5/mo VPS with its 512MB of RAM and 1 vCPU, it's never had downtime. I think there was part of me that was sad to see it go. It had served me well for so long and here I was, ready to end its life. Its time has come and gone with the ability to serve static websites from the edge. I clicked delete and typed out the name of the VPS. Permanent deletion and scrubbing of 'ol faithful took less than 20 seconds. The future of static sites is here, and it's not with a VPS.
+
+# The next steps
+
+There is one other website that I have a DigitalOcean VPS for. It's an easter-egg wiki, [poe.fish](https://poe.fish), for one of my favorite games: [Path of Exile](https://pathofexile.com). In its current form, it's running wiki.js. I'd love to move this over to Jekyll and host it on Cloudflare Pages too. This one might require some planning considering it's currently database-driven and there is other contributors besides myself that use it. I don't think I could ask a gamer with zero git experience to commit their wiki changes to a GitHub repository using markdown.
+
+While I've got a boilerplate up for darin.sh, I really want to invest some time into this project. I want a gorgeous blog and I want to fill it out with pages of blog posts about my love for technology and what I'm working on.
+
+In reality, all of my websites need some love. I've neglected them for too long. I have to let you know that I am most certainly not a designer. I know HTML, CSS, and JavaScript exceedingly well, but I am not a designer. I'll be honest and say I'm probably going to be using a theme for both darin.sh and darinrandal.com. I will tweak the hell out of it, though. 
