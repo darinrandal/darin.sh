@@ -26,7 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-target-blank
+# - jekyll-target-blank
 
 # Custom variables
 owner: "darin.sh"
